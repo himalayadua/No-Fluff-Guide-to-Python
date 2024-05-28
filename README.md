@@ -1,5 +1,4 @@
 <h1 align="center" id="title">No Fluff Guide to Python</h1>
-www.databasewithfun.com
 <p align="center"><img src="https://socialify.git.ci/himalayadua/No-Fluff-Guide-to-Python/image?description=1&amp;font=Bitter&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;theme=Light" alt="project-image"></p>
 
 <p id="description">No Fluff Guide to Python  </br>
