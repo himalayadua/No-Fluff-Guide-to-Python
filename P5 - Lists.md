@@ -42,3 +42,62 @@ New list looks like this:
 You can also add and remove numbers from the array. To add a number to the end of the array, you use the append() method. 
 ![List Append](./assets/list05.png)
 
+Code looks like this:
+
+list1=["apple","banana","grapes"]
+list1.append("strawberry")\
+# strawberry is added to the list
+print(list1)
+
+#Output
+#['apple', 'banana', 'grapes', 'strawberry']
+
+![List commands](./assets/list06.png)
+
+To remove a number from the array, you use the `pop()` method. For example, the following code removes the last number from the array:
+
+list1.pop()\
+# removes the last element from the list
+print(list1)
+
+#Output
+#['apple', 'banana', 'grapes']
+
+![List add](./assets/list07.png)
+
+### Delete vs Remove
+![List delete](./assets/list08.png)
+
+![List remove](./assets/list09.png)
+
+#### Sorting elements:
+
+**SORT**
+-   orders the values in the lists
+-   sorting is done - In Place
+-   updates are done to the list itself without making another copy
+
+![Sort](./assets/python-List-SORT.gif)
+
+**SORTED**
+- use this if the original order is important
+- makes a copy of it before sorting -> by creating a new list
+![Sorted](./assets/python-List-SORTED.gif)
+
+
+#### Looping through all elements of a LIST:
+
+-   use FOR loop
+-   a named variable is assigned all the values one by one
+    -   python creates this variable 
+    -   this variable holds the actual value, rather than the index
+-   VAR is assigned LIST1[0] in the first run
+-   VAR is assigned LIST1[1] in the next run.. and so on
+-   You can access the current element using the VAR variable.
+![Loop through list](./assets/python-List-Loop.gif)
+
+> the value of the variable used in FOR loop is not cleared after the loop is complete.
+
+Arrays are a very useful tool for storing and manipulating data in Python. They can be used to store anything from numbers to strings to objects.
+
+![LIST](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWdoefHpdoZWBTWB2dF9KXVzCPSVw3IM-jVghQsvndbb-0IF6tVGrStvIJnwcYyZuC8urjk1HlHu8JYk28vJxErsZVqIHTOnVCEXGrDXufJAA6ERxFHp67mHfV-beZ-jfXtG04x4JJabkMtY11Qa7s7QhQTwICiXklXlHUdAFu4cwk0tKYUIZXrcBHMZyZ/s2041/lists-databasewithfun.PNG)
