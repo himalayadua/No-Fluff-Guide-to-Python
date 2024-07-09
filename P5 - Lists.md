@@ -98,6 +98,6 @@ print(list1)
 
 > the value of the variable used in FOR loop is not cleared after the loop is complete.
 
-Arrays are a very useful tool for storing and manipulating data in Python. They can be used to store anything from numbers to strings to objects.
+Arrays are a very useful tool for storing and manipulating data in Python. They can be used to store anything from numbers to strings to objects. 
 
 ![LIST](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWdoefHpdoZWBTWB2dF9KXVzCPSVw3IM-jVghQsvndbb-0IF6tVGrStvIJnwcYyZuC8urjk1HlHu8JYk28vJxErsZVqIHTOnVCEXGrDXufJAA6ERxFHp67mHfV-beZ-jfXtG04x4JJabkMtY11Qa7s7QhQTwICiXklXlHUdAFu4cwk0tKYUIZXrcBHMZyZ/s2041/lists-databasewithfun.PNG)
