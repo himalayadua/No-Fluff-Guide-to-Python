@@ -70,6 +70,9 @@ How do you automate series of steps to perform ML?
     - produce ML models
 - Pipeline
     - end to end solution
+    - cyclical
+    - iterative
+        - every step can be repeated multiple times to improve accuracy of model
     - includes
         - data extraction
         - raw data input
@@ -99,3 +102,48 @@ How do you automate series of steps to perform ML?
 | Model Training | Training models on historical data to predict user preferences | Training models on historical patient data to identify patterns | Training models on historical transaction data to detect fraud patterns |
 | Deployment | Deploying the model to serve real-time recommendations | Deploying models in clinical settings to assist doctors | Deploying models to monitor transactions in real-time |
 | Predicting Outputs | Continuously updating recommendations based on new user interactions | Providing real-time diagnostic support based on new patient data | Continuously updating fraud detection models based on new data |
+
+
+## Python Packages for ML
+Open source
+- Numpy
+- pandas
+- Tensorflow
+- aesara
+- Matplotlib
+- Scipy
+- Scikit-learn
+- Keras
+- PyTorch
+
+## Careers
+ML job roles
+- MLOps
+    - combines knowledge of
+        - ML
+        - DevOps
+        - Data Engineer
+    - shorten the complete dev life cycle
+    - three steps
+        - design
+            - understand the business and data
+            - design the ML powered software
+        - model development
+            - POC
+        - operations
+            - delivering ML model in prod
+    - Tools you must know
+        - Kubeflow
+        - MLflow
+        - DVC
+        - Pachyderm
+        - Metaflow
+        - Kedro
+        - Seldon Core
+        - Flyte
+- CI/CD Pipeline Engineer
+    - test and deploy new pipelines
+    - rapid updates of pipeline
+    - handle dynamic changes in data
+    - ideal for dynamic business environment
+
